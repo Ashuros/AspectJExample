@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.aspectj.test.aspects.aspects.PerformanceLogAspect"/>
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="com.aspectj.test.Account"/>
+        </weaver>
+    </aspects>
+</aspectj>
